@@ -17,3 +17,14 @@ My PowerPlatform journey at Taitotalo from March 2025 to Sepmtember 2025
 - Build at least 3 small but practical apps
 - Understand automation patterns
 - Improve problem-solving using low-code tools
+
+## 📂 Folder Structure
+
+- `PL-900/` : Notes and resources for PL-900 certification (Power Platform Fundamentals)
+- `powerApps/` : Sample apps and ideas
+- `powerAutomate/` : Practice flows and automations
+
+## 🔗 Useful Links
+
+- [Microsoft Learn - Power Platform](https://learn.microsoft.com/en-us/training/powerplatform/)
+- [Power Platform Community](https://powerusers.microsoft.com/)
