@@ -23,6 +23,7 @@ My PowerPlatform journey at Taitotalo from March 2025 to Sepmtember 2025
 - `PL-900/` : Notes and resources for PL-900 certification (Power Platform Fundamentals)
 - `powerApps/` : Sample apps and ideas
 - `powerAutomate/` : Practice flows and automations
+- `Others` : Job hunting topics such as portofolios and resumes 
 
 ## 🔗 Useful Links
 
