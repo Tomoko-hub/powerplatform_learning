@@ -20,3 +20,16 @@
 
     -When employee information is updated, generate and send a PDF via an automated flow
 
+14.5.2025
+
+-PowerApps:
+    -How to manage state using Set() and other Power Apps functions
+
+    -How to retrieve values from selection controls like Dropdown, Radio, and Toggle
+
+    -Understanding the integration between Power Apps and SharePoint as a data source
+
+    -Designing view/edit screens following proper and stable UI patterns
+
+    -Developing a clear sense of UI-data consistency and user-driven interactions
+
