@@ -94,3 +94,40 @@ Make use of Reset property in inputs for cleaner UX
 Avoid hardcoding – rely on ThisItem and variables
 
 Modularize repetitive popups via components
+
+-27.5.2025
+🎯 MiniProject: Power Apps – Random Group Generator
+This Power Apps canvas app allows users to randomly split a list of members (students) into two groups. The app was built using a single screen and basic Power Fx logic.
+
+✅ Features Implemented
+ Display a list of students using a collection (Members)
+
+ Shuffle the list randomly using Shuffle() function
+
+ Split the shuffled list into two groups (GroupA, GroupB)
+
+ Display both groups using separate galleries
+
+ Built entirely on a single screen for simplicity
+
+🛠️ Logic Used
+ClearCollect(Shuffled, Shuffle(Members));
+ClearCollect(GroupA, FirstN(Shuffled, RoundDown(CountRows(Shuffled)/2, 0)));
+ClearCollect(GroupB, LastN(Shuffled, CountRows(Shuffled) - CountRows(GroupA)));
+
+📌 Current Data Source
+Members are currently loaded from a static in-app collection via App.OnStart:
+ClearCollect(Members, Table(
+    {Name: "Anne"}, {Name: "Miikka"}, {Name: "Kari"}, {Name: "Marika"},
+    {Name: "Markus"}, {Name: "Minna"}, {Name: "Otto"}, {Name: "Topi"},
+    {Name: "Taavi"}, {Name: "Annikki"}
+));
+
+🔜 Next Steps
+ Load student names dynamically from a SharePoint list
+
+ Allow the user to specify the number of groups
+
+ Save or export group results
+
+ Improve UI layout and add input validation
